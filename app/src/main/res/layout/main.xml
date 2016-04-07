@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal|left"
+        android:hint="@string/insert_url"
+        android:inputType="textMultiLine"
+        android:maxWidth="300dp"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:text="https://goo.gl/l6ffgm"
+        android:textColor="@color/soft_grey"/>
+
+    <Button
+        android:id="@+id/action_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/zapp_green"
+        android:text="GO"
+        android:textColor="@android:color/white" />
+
+
+    <LinearLayout
+        android:id="@+id/drop_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"></LinearLayout>
+
+</LinearLayout>
